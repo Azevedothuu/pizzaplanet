@@ -1,7 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Home } from './pages/Home'
+import { Home } from './pages/home'
 import './global'
 
 createRoot(document.getElementById('root')!).render(
