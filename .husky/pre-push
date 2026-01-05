@@ -1,10 +1,12 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+echo "🚀 Preparando para o push..."
+
 echo "🔍 Rodando ESLint..."
 npm run lint || exit 1
 
 echo "🏗️ Rodando build..."
 npm run build || exit 1
 
-echo "✅ ESLint + Build passaram. Commit liberado 🚀"
+echo "✅ Tudo certo! Push autorizado 🚀"
