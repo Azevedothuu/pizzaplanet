@@ -1,8 +1,6 @@
 import type { JSX } from 'react';
 import backgroundImage from '@assets/Hero-bg.jpg';
 import Icon from '@assets/PizzaPlanet-icon.png';
-
-
 import { Navbar } from '@components/navbar';
 import { Button } from '@components/buttons';
 
@@ -16,25 +14,26 @@ export function Hero(): JSX.Element {
         backgroundPosition: 'center',
       }}
     >
-      {/* Imagem escurecida */}
+      {/* Image */}
       <div className="absolute inset-0 bg-black/60" />
 
-      {/* Conteúdo da Hero  */}
+      {/* Hero content */}
       <div className="relative z-10 w-full">
         <Navbar />
-        <div className="flex justify-center items-center flex-col gap-8">
-          <div className='flex flex-col items-center gap-4 text-center px-4'>
+        <div className="flex justify-center items-center flex-col pt-20 ">
+          <div className='flex flex-col items-center gap-20 text-center px-4 '>
             <img
             src={Icon}
             alt="Icone"
-            className="w-94 h-94"
+            className="w-auto h-full"
             />
-            <a href="#about-us-section" className="transition-transform hover:scale-120">
+            <a href="#about-us-section" className="transition-all duration-300 hover:scale-120">
               <Button>Meet US</Button>
             </a>
           </div>
         </div>
       </div>
+      
     </section>
   );
 }

@@ -1,11 +1,12 @@
 import type { JSX } from 'react';
-import { AboutUS, Hero } from './sections';
+import { AboutUS, Hero, Restaurant } from './sections';
 
 export function Home(): JSX.Element {
   return (
     <>
-    <Hero />
-    <AboutUS />
+      <Hero />
+      <AboutUS />
+      <Restaurant />
     </>
   );
 }

@@ -1,3 +1,4 @@
 export * from './navbar';
 export * from './buttons';
 export * from './typography';
+export * from './Card';
