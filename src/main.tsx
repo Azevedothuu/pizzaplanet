@@ -1,8 +1,8 @@
-import React from 'react'
-import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Home } from './pages/home'
-import './global'
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Home } from '@pages/home';
+import './global';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -12,4 +12,4 @@ createRoot(document.getElementById('root')!).render(
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
-)
+);

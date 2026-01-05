@@ -1,4 +1,4 @@
-import { Card } from '@components/Card';
+import { Card } from '@components/card';
 import { Typography } from '@components/typography';
 import type { JSX } from 'react';
 import PhotoRestaurant from '@assets/Restaurant-photo.jpg';
