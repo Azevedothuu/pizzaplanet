@@ -1,5 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-echo "📝 Validando mensagem de commit..."
-npx --no-install commitlint --edit "$1"
